@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 12, 2018, 5:42:14 PM
+    Author     : User
+*/
+
+*{
+    -fx-primary: #2A2E37;
+    -fx-secondary: #FFFF8D;
+    -fx-primarytext: #B2B2B2;
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+.button{
+    -fx-background-color: -fx-primary;
+    -fx-text-fill: -fx-primarytext;
+}
+
+.side-button{
+    -fx-border-color: -fx-secondary;
+}
+
+.custom-button{
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+
+.text{
+    -fx-fill: -fx-secondary;
+}
+
+.menu-bar{
+    -fx-background-color: -fx-primary;
+}
+
+.tab{
+    -fx-background-color:  -fx-primary;
+    -fx-pref-width: 369px;
+    -fx-pref-height: 50px;
+}
+
+.tab-header-background{
+    -fx-background-color: -fx-primary;
+}
+
+.context-menu{
+    -fx-background-color: derive(-fx-primary,20%);
+}
+
+.menu:showing{
+    -fx-background-color: derive(-fx-primary,50%);
+}
+
+.menu:hover{
+    -fx-background-color: derive(-fx-primary,50%);
+}
+
+.menu-item:hover{
+    -fx-background-color: derive(-fx-primary,50%);
+}
+
+.menu-item:focused{
+    -fx-background-color: derive(-fx-primary,50%);
+}
